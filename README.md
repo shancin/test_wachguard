@@ -1,6 +1,5 @@
 # test_wachguard
 
-
    default Date getPeriodEnd(final Date periodStart, final Date minDate) {
       Date loopDate = periodStart;
       while (compareDates(loopDate, minDate) <0) {
